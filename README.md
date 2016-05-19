@@ -1,7 +1,7 @@
 # translate-yandex-bash
 Simple script for en-ru/ru-en translation
 
-Put `trans` to `/usr/bin`, make executable by `sudo chmod +x trans`, restart terminal and now you can:
+Linux: put `trans` to `/usr/bin/`, Mac `/usr/local/bin/`:  make executable by `sudo chmod +x trans`, restart terminal and now you can:
 
 `trans hello`
 
@@ -11,3 +11,10 @@ Put `trans` to `/usr/bin`, make executable by `sudo chmod +x trans`, restart ter
 
 `trans доброе утро`
 
+Also it usefull not to switch layout when typing:
+
+`транс привет`
+
+For this you can create soft link at the same folder:
+
+`ln -s trans транс`
